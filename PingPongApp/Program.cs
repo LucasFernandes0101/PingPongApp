@@ -36,7 +36,7 @@ namespace PingPongApp
             int jogadorA = Int32.Parse(pontosA);
             int jogadorB = Int32.Parse(pontosB);
 
-            //Checa se alguem ganhou a rodada
+            //Checa se alguém ganhou a rodada
             if (jogadorA >= 21  && jogadorA > jogadorB + 2)
             {
                 return "GANHOU A";
@@ -46,7 +46,7 @@ namespace PingPongApp
                 return "GANHOU B";
             }
 
-            //Chega se as regras estão mudadas
+            //Checa se as regras estão mudadas
             if (jogadorA >= 20 && jogadorB >= 20)
             {
                 //Se a vez do jogador está na segunda, troca o saque
